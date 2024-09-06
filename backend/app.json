@@ -1,0 +1,15 @@
+{
+  "stack": "heroku-22",
+  "addons":[],
+  "env": {
+    "PROJECT_PATH": {
+      "value": "backend"
+    }
+  },
+  "buildpacks": [
+    { "url": "heroku/ruby" }
+  ],
+  "domains": [
+    "api.layeredstack.org"
+  ]
+}
