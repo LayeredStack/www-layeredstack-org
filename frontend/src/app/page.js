@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <Page
-      backendUrl="http://localhost:3000"
+      backendUrl="https://api.layeredstack.org"
       logoDark={logoDark}
       logoLight={logoLight}
       metadata={metadata}
